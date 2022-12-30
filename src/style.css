@@ -1,0 +1,77 @@
+.nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.logo {
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.title {
+  margin-right: auto;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #ffffff;
+}
+
+/* Meme */
+.meme-form {
+  text-align: center;
+}
+
+.meme-flex {
+  margin: 36px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.meme-input {
+  font-family: "Karla";
+
+  box-sizing: border-box;
+  width: 230px;
+  height: 35px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.meme-btn {
+  display: block;
+  width: 480px;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.1em;
+  cursor: pointer;
+  margin: 0 auto 30px;
+}
+
+.meme-image {
+  max-width: 480px;
+}
