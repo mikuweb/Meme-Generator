@@ -72,6 +72,41 @@
   margin: 0 auto 30px;
 }
 
+.meme-image-container{
+  position: relative;
+}
+
+
 .meme-image {
   max-width: 480px;
+}
+
+.meme-image-top{
+  position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.meme-image-bottom{
+  position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;
+  bottom: 0;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
 }
